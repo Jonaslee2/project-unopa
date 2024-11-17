@@ -1,0 +1,51 @@
+body {
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    
+}
+
+
+    .btn-primary {
+        width: 90px;   /* Altere este valor conforme necessário */
+        height: 50px;   /* Altere este valor conforme necessário */
+        font-size: 15px; /* Ajuste o tamanho do texto do botão, se necessário */
+        margin-left: 110px;  
+        background: var(--color-gradient);
+    --color-purple-50: rgb(44, 7, 207);
+    --color-purple-100: #7751fd;
+    --color-purple-200: #490963;
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+        
+    }
+
+h1 {
+    margin-bottom: 8px;
+    text-align: center; 
+    color: rgb(49, 2, 104); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    height: 280px;
+    background: var(--color-gradient);
+    --color-purple-50: rgb(227, 210, 255);
+    --color-purple-100: #ca98fa;
+    --color-purple-200: #d090e9;
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+    border-radius: 10px;
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 70px 20px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do box quando o mouse passa por cima */
+}
